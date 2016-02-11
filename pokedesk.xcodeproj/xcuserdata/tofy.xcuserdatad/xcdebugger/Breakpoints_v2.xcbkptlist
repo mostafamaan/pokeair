@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "pokedesk/PokeCell.swift"
+            timestampString = "476900293.92276"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "14"
+            endingLineNumber = "14"
+            landmarkName = "PokeCell"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "pokedesk.PokeCell.thumbImg.setter : weak Swift.Optional&lt;ObjectiveC.UIImageView&gt;"
+                  moduleName = "pokedesk"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/tofy/Desktop/develop/ios/pokedesk/pokedesk/PokeCell.swift"
+                  timestampString = "476901533.010364"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "16">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "pokedesk.PokeCell.thumbImg.materializeForSet : weak Swift.Optional&lt;ObjectiveC.UIImageView&gt;"
+                  moduleName = "pokedesk"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/tofy/Desktop/develop/ios/pokedesk/pokedesk/PokeCell.swift"
+                  timestampString = "476901533.010647"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "16">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "pokedesk.PokeCell.init (pokedesk.PokeCell.Type)(frame : C.CGRect) -&gt; pokedesk.PokeCell"
+                  moduleName = "pokedesk"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/tofy/Desktop/develop/ios/pokedesk/pokedesk/PokeCell.swift"
+                  timestampString = "476901533.010872"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "14"
+                  endingLineNumber = "14"
+                  offsetFromSymbolStart = "66">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "pokedesk.PokeCell.init (pokedesk.PokeCell.Type)(coder : ObjectiveC.NSCoder) -&gt; Swift.Optional&lt;pokedesk.PokeCell&gt;"
+                  moduleName = "pokedesk"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/tofy/Desktop/develop/ios/pokedesk/pokedesk/PokeCell.swift"
+                  timestampString = "476901533.011072"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "14"
+                  endingLineNumber = "14"
+                  offsetFromSymbolStart = "31">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "pokedesk/ViewController.swift"
+            timestampString = "476913122.449499"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "136"
+            endingLineNumber = "136"
+            landmarkName = "initAudio()"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "pokedesk/ViewController.swift"
+            timestampString = "476913122.449499"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "64"
+            endingLineNumber = "64"
+            landmarkName = "collectionView(_:cellForItemAtIndexPath:)"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
