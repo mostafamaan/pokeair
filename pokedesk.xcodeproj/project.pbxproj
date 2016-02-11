@@ -1,0 +1,291 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CA7279321C6CDA4100D968B0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA7279311C6CDA4100D968B0 /* AppDelegate.swift */; };
+		CA7279341C6CDA4100D968B0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA7279331C6CDA4100D968B0 /* ViewController.swift */; };
+		CA7279371C6CDA4100D968B0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CA7279351C6CDA4100D968B0 /* Main.storyboard */; };
+		CA7279391C6CDA4100D968B0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CA7279381C6CDA4100D968B0 /* Assets.xcassets */; };
+		CA72793C1C6CDA4100D968B0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CA72793A1C6CDA4100D968B0 /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		CA72792E1C6CDA4100D968B0 /* pokedesk.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = pokedesk.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CA7279311C6CDA4100D968B0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CA7279331C6CDA4100D968B0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CA7279361C6CDA4100D968B0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CA7279381C6CDA4100D968B0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CA72793B1C6CDA4100D968B0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CA72793D1C6CDA4100D968B0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CA72792B1C6CDA4100D968B0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CA7279251C6CDA4100D968B0 = {
+			isa = PBXGroup;
+			children = (
+				CA7279301C6CDA4100D968B0 /* pokedesk */,
+				CA72792F1C6CDA4100D968B0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CA72792F1C6CDA4100D968B0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CA72792E1C6CDA4100D968B0 /* pokedesk.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CA7279301C6CDA4100D968B0 /* pokedesk */ = {
+			isa = PBXGroup;
+			children = (
+				CA7279311C6CDA4100D968B0 /* AppDelegate.swift */,
+				CA7279331C6CDA4100D968B0 /* ViewController.swift */,
+				CA7279351C6CDA4100D968B0 /* Main.storyboard */,
+				CA7279381C6CDA4100D968B0 /* Assets.xcassets */,
+				CA72793A1C6CDA4100D968B0 /* LaunchScreen.storyboard */,
+				CA72793D1C6CDA4100D968B0 /* Info.plist */,
+			);
+			path = pokedesk;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CA72792D1C6CDA4100D968B0 /* pokedesk */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CA7279401C6CDA4100D968B0 /* Build configuration list for PBXNativeTarget "pokedesk" */;
+			buildPhases = (
+				CA72792A1C6CDA4100D968B0 /* Sources */,
+				CA72792B1C6CDA4100D968B0 /* Frameworks */,
+				CA72792C1C6CDA4100D968B0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = pokedesk;
+			productName = pokedesk;
+			productReference = CA72792E1C6CDA4100D968B0 /* pokedesk.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CA7279261C6CDA4100D968B0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = MustafaSoft;
+				TargetAttributes = {
+					CA72792D1C6CDA4100D968B0 = {
+						CreatedOnToolsVersion = 7.0;
+						DevelopmentTeam = HNCVYKA54Q;
+					};
+				};
+			};
+			buildConfigurationList = CA7279291C6CDA4100D968B0 /* Build configuration list for PBXProject "pokedesk" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CA7279251C6CDA4100D968B0;
+			productRefGroup = CA72792F1C6CDA4100D968B0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CA72792D1C6CDA4100D968B0 /* pokedesk */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CA72792C1C6CDA4100D968B0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA72793C1C6CDA4100D968B0 /* LaunchScreen.storyboard in Resources */,
+				CA7279391C6CDA4100D968B0 /* Assets.xcassets in Resources */,
+				CA7279371C6CDA4100D968B0 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CA72792A1C6CDA4100D968B0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA7279341C6CDA4100D968B0 /* ViewController.swift in Sources */,
+				CA7279321C6CDA4100D968B0 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		CA7279351C6CDA4100D968B0 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CA7279361C6CDA4100D968B0 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CA72793A1C6CDA4100D968B0 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CA72793B1C6CDA4100D968B0 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CA72793E1C6CDA4100D968B0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CA72793F1C6CDA4100D968B0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CA7279411C6CDA4100D968B0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = pokedesk/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.MustafaSoft.Clipsy.pokedesk;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		CA7279421C6CDA4100D968B0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = pokedesk/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.MustafaSoft.Clipsy.pokedesk;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CA7279291C6CDA4100D968B0 /* Build configuration list for PBXProject "pokedesk" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CA72793E1C6CDA4100D968B0 /* Debug */,
+				CA72793F1C6CDA4100D968B0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CA7279401C6CDA4100D968B0 /* Build configuration list for PBXNativeTarget "pokedesk" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CA7279411C6CDA4100D968B0 /* Debug */,
+				CA7279421C6CDA4100D968B0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CA7279261C6CDA4100D968B0 /* Project object */;
+}
