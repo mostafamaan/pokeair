@@ -9,27 +9,60 @@
 import UIKit
 
 class DetailViewController: UIViewController {
+    
+    
+    @IBOutlet weak var mainImage: UIImageView!
+    
+    @IBOutlet weak var bioLabel: UILabel!
+    @IBOutlet weak var typeLabel: UILabel!
+    @IBOutlet weak var defanceLabel: UILabel!
+    @IBOutlet weak var hieght: UILabel!
+    @IBOutlet weak var wieght: UILabel!
+    @IBOutlet weak var pokeIDLabel: UILabel!
+    @IBOutlet weak var baseAttackLabel: UILabel!
+    @IBOutlet weak var currentEvoImg: UIImageView!
+    @IBOutlet weak var nextEvoImage: UIImageView!
+    @IBOutlet weak var evoLabel: UILabel!
+    
+    
+    
+    
+    
+    
+    
+    var pokemon:Pokemon!
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        navigationController?.navigationBar.backgroundColor = UIColor.redColor()
+        
+        
+       navigationController?.navigationBar.topItem?.title = pokemon.name
+        mainImage.image = UIImage(named: "\(pokemon.pokedexId)")
+        
+        pokeIDLabel.text = "\(pokemon.pokedexId)"
+         
 
-        // Do any additional setup after loading the view.
+
+        pokemon.downloadPokemonDetails { () -> () in
+          //  this will call when the download is done
+            
+            self.typeLabel.text = self.pokemon.type
+            
+        }
     }
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
+        
     
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
-        // Get the new view controller using segue.destinationViewController.
-        // Pass the selected object to the new view controller.
+    
+    
+    @IBAction func doneBtnPressed(sender: AnyObject) {
+        
+        dismissViewControllerAnimated(true, completion: nil)
     }
-    */
-
 }

@@ -82,6 +82,15 @@ class ViewController: UIViewController,UICollectionViewDelegate,UICollectionView
     
     func collectionView(collectionView: UICollectionView, didSelectItemAtIndexPath indexPath: NSIndexPath) {
         
+        var poke:Pokemon!
+        if inSearchMod {
+            poke = filtredPokemon[indexPath.row]
+        }
+        else {
+            poke = pokemonArray[indexPath.row]
+        }
+        
+        performSegueWithIdentifier("segue", sender: poke)
     }
     
     
@@ -144,6 +153,8 @@ class ViewController: UIViewController,UICollectionViewDelegate,UICollectionView
         }
     }
     
+    //making a search fucntion
+    
     func searchBar(searchBar: UISearchBar, textDidChange searchText: String) {
         if searchBar.text == nil || searchBar.text == "" {
             inSearchMod = false
@@ -166,6 +177,21 @@ class ViewController: UIViewController,UICollectionViewDelegate,UICollectionView
     
     func scrollViewDidScroll(scrollView: UIScrollView) {
         view.endEditing(true)
+    }
+    
+    override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
+        if segue.identifier == "segue" {
+            
+            let nav = segue.destinationViewController as! UINavigationController
+             let detail = nav.topViewController as! DetailViewController!
+                
+                let poke = sender as? Pokemon
+                    detail.pokemon = poke
+            
+                
+            
+            
+        }
     }
     
 }
