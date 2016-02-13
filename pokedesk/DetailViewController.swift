@@ -39,19 +39,54 @@ class DetailViewController: UIViewController {
         
         
        navigationController?.navigationBar.topItem?.title = pokemon.name
-        mainImage.image = UIImage(named: "\(pokemon.pokedexId)")
+        
+        let img = UIImage(named: "\(pokemon.pokedexId)")
+        mainImage.image = img
         
         pokeIDLabel.text = "\(pokemon.pokedexId)"
+        currentEvoImg.image = img
          
 
 
         pokemon.downloadPokemonDetails { () -> () in
           //  this will call when the download is done
+            self.updateUI()
             
             self.typeLabel.text = self.pokemon.type
             
         }
+        
+            }
+    
+    func updateUI() {
+        
+        bioLabel.text = pokemon.bio
+        typeLabel.text = pokemon.type
+        defanceLabel.text = pokemon.defense
+        hieght.text = pokemon.height
+        wieght.text = pokemon.wieght
+        baseAttackLabel.text = pokemon.attack
+        
+        var string = "Next Evolution: \(pokemon.nextEvo)"
+        if pokemon.nextEvoLevel != "" {
+            string += " -lvl \(pokemon.nextEvoLevel)"
+            evoLabel.text = string
+            
+        }
+        
+        if pokemon.nextEvoId == "" {
+            evoLabel.text = "There is no Evolution"
+            nextEvoImage.hidden = true
+        }
+        else {
+        
+        nextEvoImage.image = UIImage(named: pokemon.nextEvoId)
+        nextEvoImage.hidden = false
+        
+        }
+        
     }
+
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
