@@ -194,10 +194,7 @@ class Pokemon {
                     }
                 }
                 
-                print(self._type)
-                print(self._nextEvoId)
-                print(self._nextEvoLevel)
-                print(self._nextEvo)
+               
                 
                 if let disArray = dict["descriptions"] as? [Dictionary<String,String>] where disArray.count > 0 {
                     

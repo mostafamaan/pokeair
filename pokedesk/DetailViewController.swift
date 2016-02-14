@@ -29,11 +29,15 @@ class DetailViewController: UIViewController {
     
     
     
-    
+    var activityIndicatorView: ActivityIndicatorView!
     var pokemon:Pokemon!
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        self.activityIndicatorView = ActivityIndicatorView(title: "Processing...", center: self.view.center)
+        self.view.addSubview(self.activityIndicatorView.getViewActivityIndicator())
+
         
         navigationController?.navigationBar.backgroundColor = UIColor.redColor()
         
@@ -59,6 +63,8 @@ class DetailViewController: UIViewController {
             }
     
     func updateUI() {
+        self.activityIndicatorView.startAnimating()
+   //     UIApplication.sharedApplication().beginIgnoringInteractionEvents()
         
         bioLabel.text = pokemon.bio
         typeLabel.text = pokemon.type
@@ -85,6 +91,10 @@ class DetailViewController: UIViewController {
         
         }
         
+        self.activityIndicatorView.stopAnimating()
+       // UIApplication.sharedApplication().endIgnoringInteractionEvents()
+        
+        
     }
 
 
@@ -100,4 +110,6 @@ class DetailViewController: UIViewController {
         
         dismissViewControllerAnimated(true, completion: nil)
     }
+    
+    
 }
